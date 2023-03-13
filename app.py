@@ -4,12 +4,12 @@ from audiorecorder import audiorecorder
 from PIL import Image
 import time
 import random
-openai.api_key = "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"
+openai.api_key = "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"
 
 # front end elements of the web page 
 html_temp = """ 
     <div style ="background-color:skyblue;padding:13px"> 
-    <h1 style ="color:black;text-align:center;">Suicide Prediction App</h1> 
+    <h1 style ="color:black;text-align:center;">Audio to Image App</h1> 
     </div> 
     """
 
