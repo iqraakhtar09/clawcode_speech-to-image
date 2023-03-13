@@ -20,7 +20,7 @@ st.subheader('by Clawcode team')
 st.title('from speech to image')
 
 def audio_to_file(audio):
-    file_name = "audio/"+str(time.time())+str(random.randint(1000,9999))+".mp3"
+    file_name = str(time.time())+str(random.randint(1000,9999))+".mp3"
     wav_file = open(file_name, "wb")
     wav_file.write(audio.tobytes())
     return file_name
