@@ -4,7 +4,7 @@ from audiorecorder import audiorecorder
 from PIL import Image
 import time
 import random
-openai.api_key = "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"
+openai.api_key = "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"
 
 # front end elements of the web page 
 html_temp = """ 
